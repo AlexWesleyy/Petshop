@@ -1,0 +1,88 @@
+<div class="text-center header">
+    <h1 class="text-center header-text">Cadastrar colaborador</h1>
+</div>
+<div class="signup-form">
+    <form action="/colaborador/add" class="p-2" method="post">
+        <p>Preencha o formulário para cadastrar um colaborador</p>
+        <hr>
+        <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">
+            <span class="fa fa-user"></span>
+          </span>
+        </div>
+        <input type="text" class="form-control" name="nome" placeholder="Nome" required="required">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">
+            <i class="fa fa-star"></i>
+          </span>
+        </div>
+        <input type="text" class="form-control" name="sobrenome" placeholder="Digite o Sobrenome" required="required">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">
+            <i class="fa fa-filter"></i>
+          </span>
+        </div>
+        <input type="date" class="form-control" name="dataNascimento" placeholder="Data de nascimento" required="required">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">
+            <i class="fa fa-pencil"></i>
+          </span>
+        </div>
+        <input type="text" class="form-control" name="cpf" placeholder="CPF do colaborador" required="required">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">
+            <i class="fa fa-pencil"></i>
+          </span>
+        </div>
+        <input type="text" class="form-control" name="funcao" placeholder="Função do colaborador" required="required">
+      </div>
+    </div>
+
+        <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">
+            <i class="fa fa-pencil"></i>
+          </span>
+        </div>
+        <input type="text" class="form-control" name="login" placeholder="Crie o usuário do colaborador" required="required">
+      </div>
+    </div>
+
+            <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">
+            <i class="fa fa-pencil"></i>
+          </span>
+        </div>
+        <input type="password" class="form-control" name="senha" placeholder="Crie a senha do colaborador" required="required">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" class="btn-form text-center btn-primary btn-lg">Cadastrar</button>
+    </div>
+  </form>
+</div>
